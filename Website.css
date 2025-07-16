@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #080839;
+    color: rgb(192, 211, 224);
+    font-family: Helvetica;
+    align-items: center;
+}
+
+span {
+   color: rgb(26, 26, 195);
+}
+.logo{
+    color: rgb(190, 203, 215);
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+
+    text-transform: uppercase;
+}
+.menu {
+   display: flex;
+   width: 17%;
+   justify-content:space-between; 
+   color: rgb(190, 203, 215);
+   text-decoration: none;
+}
+
+.button-style {
+   width: 134px;
+   height: 49px;
+   padding-top: 17px 31;
+   font-weight: 540;
+   font-size: 16px;
+   color: rgb(190, 203, 215);
+   font-style: bold;
+   background:rgb(54, 126, 184);
+   border: none;
+   border-radius: 3px;
+}
+button {
+   width: auto;
+   height: auto;
+   background-color: rgb(45, 68, 125);
+   color: white;
+   font-style: bold;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+button:hover {
+    background-color:rgb(79, 91, 199);
+}
+
+work-section {
+   background-color:rgb(20, 20, 87);
+   text-align: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    justify-content:space-between;
+}
+.heading-text {
+    color: rgb(190, 203, 215);
+    font-style: bold;
+}
+.secondary-text {
+    color: rgb(190, 203, 215);
+}
+.work-section {
+    color: rgb(190, 203, 215);
+    padding: 60px 0;
+}
+.work-heading {
+    color: rgb(190, 203, 215);
+    text-align: center;
+    margin-bottom: 68px;
+}
+.footer-links {
+    color: rgb(190, 203, 215);
+    font-style: bold;
+}
+.footer-slogan {
+    font-style: italic;
+    color: rgb(190, 203, 215);
+    font-size: 17px;
+    margin-bottom: 32px;
+}
+.list-two {
+    text-decoration: none;
+    color: rgb(190, 203, 215);
+    font-size: 16px;
+    list-style: none;
+}
+a {
+    text-align: center;
+    color: rgb(190, 203, 215);
+    font-size: 14px;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
